@@ -51,6 +51,7 @@ class webservices {
 						$category_id_array = array();
 						$category_name_array = array();
 						$menu_arr = array();
+						$item_info = array();
 					//echo "MENU NAME ".$category_row['category_name'] ." MENU ID ".$category_row['category_id'];
 					//$category_id_array[] = $category_row['category_id'];
 					//$category_name_array[] = $category_row['category_name'];
