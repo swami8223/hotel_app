@@ -21,10 +21,11 @@ $menu_details_tabel = "CREATE TABLE  menu_details(
  					price INT NOT NULL,
  					item_details CHAR(100) NOT NULL,
  					todays_special CHAR(100) NOT NULL,
+ 					online_order CHAR(100) NOT NULL,
                     menu_id INT NOT NULL AUTO_INCREMENT,
                     PRIMARY KEY (menu_id) 
                    
-)";
+);
 
 
 menu_category = CREATE TABLE  menu_category(

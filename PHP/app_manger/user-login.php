@@ -5,8 +5,8 @@
 include '../includes/css_jsinclude.php';
 include '../db_manager/userLoginDbManager.php';
 ?>
-<link type="text/css" rel="stylesheet" href="../includes/global.css"/>
 <link type="text/css" rel="stylesheet" href="../includes/login.css" />
+<link type="text/css" rel="stylesheet" href="../../css/login.css" />
 
 <body>
 <header class="header"><h1>target</h1></header>

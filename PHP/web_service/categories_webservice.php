@@ -67,9 +67,30 @@ class webservices {
 						//$menu_arr[$category_arr[$menu_number]]=$item_row['item_id'];  
 						//array_push($menu_arr[$item_row['category_id']],$item_row['item_id']);
 						//echo $item_row['item_id'];
-						$item_array[] = $item_row['item_id'];
+						
+						
+						$item_details_select_query = "SELECT * FROM menu_details WHERE menu_id =".$item_row['item_id'];
+						$item_details_result = mysqli_query($con,$item_details_select_query);
+						while($item_details_row = mysqli_fetch_array($item_details_result)){
+							$item_array["item_id"] = $item_row['item_id'];
+							$item_array['item_name'] = $item_details_row['item_name'];
+							$item_array['item_image'] = $item_row['item_image'];
+							$item_array['iitem_video'] = $item_details_row['item_video'];
+							$item_array['stock_status'] = $item_details_row['stock_status'];
+							$item_array['stock_count'] = $item_details_row['stock_count'];
+							$item_array['price'] = $item_details_row['price'];
+							$item_array['item_details'] = $item_details_row['item_details'];
+							$item_array['todays_special'] = $item_details_row['todays_special'];
+							$item_array['online_order'] = $item_details_row['online_order'];
+							$item_info[] = $item_array;
+							$menu_arr['item_info'] = $item_info;
+							
+						}
+						
+						
+						
 					}
-					$menu_arr['item_ids'] = $item_array;
+					
 					$menu_json_array[] = $menu_arr;
 					//echo $category_row['category_name'].",".$category_row['category_id'].",".$item_array[0].">>>";
 					

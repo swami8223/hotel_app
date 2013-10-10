@@ -10,11 +10,10 @@ include 'hotel_menu_details.php';
 $hotel_menu_details = new Hotel_menu_details(); // hotel name,address,phonenumber are in araay
 $hotel_details= $hotel_menu_details ->hotel_details();
 ?>
-<link type="text/css" rel="stylesheet" href="../includes/global.css"/>
 <body>
 <header class="header">
 <h1><?php echo $hotel_details['HotelName'];?>
-<label class="right" for="username">Welcome <u><?php echo $username?> </u></label>
+<label class="fltrt" for="username">Welcome <?php echo $username?></label>
 </h1>
 </header>
 </body>
