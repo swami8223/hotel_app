@@ -1,4 +1,5 @@
 <?php
+
 include '../db_manager/dbdetails.php';
 class Hotel_menu_details {
 	public $hotel_details_table_name;

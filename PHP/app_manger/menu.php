@@ -4,6 +4,7 @@
 
 <?php 
 		// menu html page
+		include '../includes/verifylogin.php';
 		include '../includes/css_jsinclude.php';
 		include '../includes/header.php';
 		//include '../db_manager/hoteldetailsDbManager.php';

@@ -5,7 +5,7 @@
 include '../includes/css_jsinclude.php';
 include '../db_manager/userLoginDbManager.php';
 ?>
-<link type="text/css" rel="stylesheet" href="../includes/login.css" />
+<link type="text/css" rel="stylesheet" href="../../css/global.css" />
 <link type="text/css" rel="stylesheet" href="../../css/login.css" />
 
 <body>
@@ -20,18 +20,18 @@ include '../db_manager/userLoginDbManager.php';
 <input placeholder="Password" type="password" class="password-box" name="password">
 
 <input type="submit" name="submit" value="Login" class="login-button" >
-<button  value="signup"  class="login-button mrgleft10"><a href="signup.html">sign up</a></button>
+<button  value="signup"  class="login-button mrgleft10"><a href="user-signup.php">sign up</a></button>
 </form>
 
 </div>
 <?php
 if (isset($_POST['submit'])) {
-		rsvpsubmit();
+		userloginsubmit();
 
 	}
 
 
-	function rsvpsubmit() {
+	function userloginsubmit() {
 		$error = false;		
 		$error_details = array();
 		$valid_file = true;
@@ -52,15 +52,13 @@ if (isset($_POST['submit'])) {
 			for($x=0;$x<=$error_details_length;$x++){
 				echo $error_details[$x];
 				echo "<br>";
-
 			}
 		}
 		else if($error == false)
 		{			
-			$userLoginDbManager = new  userLoginDbManager();
-			
+			$userLoginDbManager = new  userLoginDbManager();			
 			//Checking DB created successfully and Redirecting to next page
-			if( $userLoginDbManager -> verifyuser()){
+			if( $userLoginDbManager -> verifyuser()){				
 				$host  = $_SERVER['HTTP_HOST'];
 				$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 				$extra = 'menu.php';

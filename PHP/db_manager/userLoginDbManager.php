@@ -40,6 +40,7 @@ include 'dbdetails.php';
  			{
  				session_start(); 				 				
  				$_SESSION["username"] = $this->user_name;
+ 				$_SESSION['timeout'] = time();
  				return  true;
  			}
  			else

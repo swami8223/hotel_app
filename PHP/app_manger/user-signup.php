@@ -2,11 +2,10 @@
 <html>
 <?php
 // this post info into db
-include '../includes/css_jsinclude.php';
 include '../db_manager/hoteldetailsDbManager.php';
 ?>
-<link type="text/css" rel="stylesheet" href="../includes/global.css"/>
-<link type="text/css" rel="stylesheet" href="../includes/login.css" />
+<link type="text/css" rel="stylesheet" href="../../css/global.css" />
+<link type="text/css" rel="stylesheet" href="../../css/login.css" />
 
 <body>
 

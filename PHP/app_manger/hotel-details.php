@@ -3,6 +3,7 @@
 
 <?php
 // this post info into db 
+include '../includes/verifylogin.php';
 include '../includes/css_jsinclude.php';
 include '../db_manager/hoteldetailsDbManager.php';
 ?>
