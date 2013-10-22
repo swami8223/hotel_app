@@ -3,7 +3,7 @@
 <nav id="topnav">
 <ul class="clear">
 <li><a href="index.php" title="Homepage">Homepage</a></li>
-<li class="active"><a class="drop" href="menu.php" title="Pages">Menu/Order</a>
+<li class="active"><a class="" href="menu.php" title="Pages">Online order</a>
 <!-- <ul>
 <li><a href="full-width-content.html" title="Full Width Content">Full Width Content</a></li>
 <li><a href="content-leftsidebar.html" title="Content + Left Sidebar">Content + Left Sidebar</a></li>
@@ -17,7 +17,7 @@
 <li class="last-child"><a href="faq.html" title="FAQ">FAQ</a></li>
 </ul>  -->
 </li>
-<li><a class="drop" href="aboutus.php" title="Elements">About Us</a>
+<li><a class="" href="aboutus.php" title="About Us">About Us</a>
 <!-- 
 <ul>
 <li><a href="../elements/buttons.html" title="Buttons">Buttons</a></li>
@@ -50,24 +50,16 @@
 <li class="last-child"><a href="../portfolio-layouts/portfolio-overview-4columns.html" title="4 Column Grid">4 Column Grid</a></li>
 </ul> 
 </li>-->
-<li><a class="drop" href="#" title="Gallery Layouts">Hall Booking</a>
-<!--  
+<li><a class="drop" href="#" title="Our Services">Our Services</a>
+  
 <ul>
-<li><a href="../gallery-layouts/gallery-full-width-content.html" title="Full Width Gallery">Full Width Gallery</a></li>
-<li><a href="../gallery-layouts/gallery-2columns.html" title="2 Column Grid">2 Column Grid</a></li>
-<li><a href="../gallery-layouts/gallery-2columns-leftsidebar.html" title="2 Column Grid + Left Sidebar">2 Col. Grid + Left Sidebar</a></li>
-<li><a href="../gallery-layouts/gallery-2columns-rightsidebar.html" title="2 Column Grid + Right Sidebar">2 Col. Grid + Right Sidebar</a></li>
-<li><a href="../gallery-layouts/gallery-2columns-bothsidebars.html" title="2 Column Grid + Both Sidebars">2 Col. Grid + Both Sidebars</a></li>
-<li><a href="../gallery-layouts/gallery-3columns.html" title="3 Column Grid">3 Column Grid</a></li>
-<li><a href="../gallery-layouts/gallery-3columns-leftsidebar.html" title="3 Column Grid + Left Sidebar">3 Col. Grid + Left Sidebar</a></li>
-<li><a href="../gallery-layouts/gallery-3columns-rightsidebar.html" title="3 Column Grid + Right Sidebar">3 Col. Grid + Right Sidebar</a></li>
-<li><a href="../gallery-layouts/gallery-3columns-bothsidebars.html" title="3 Column Grid + Both Sidebars">3 Col. Grid + Both Sidebars</a></li>
-<li><a href="../gallery-layouts/gallery-4columns.html" title="4 Column Grid">4 Column Grid</a></li>
-<li class="last-child"><a href="../gallery-layouts/gallery-5columns.html" title="5 Column Grid">5 Column Grid</a></li>
-</ul> -->
+<li><a href="../gallery-layouts/gallery-full-width-content.html" title="Birth day parties">Birth day parties</a></li>
+<li><a href="../gallery-layouts/gallery-2columns.html" title="Hall Booking">Hall Booking</a></li>
+<li><a href="../gallery-layouts/gallery-2columns-leftsidebar.html" title="Room Booking">Room Booking</a></li>
+</ul> 
 </li>
-<li><a href="feedback.php" title="Link Text">FeedBack</a></li>
-<li class="last-child"><a href="contactus.php" title="A Very Long Link Text">Contact Us</a></li>
+<li><a href="feedback.php" title="FeedBack">FeedBack</a></li>
+<li class="last-child"><a href="contactus.php" title="Contact Us">Contact Us</a></li>
 </ul>
 </nav>
 </div>
