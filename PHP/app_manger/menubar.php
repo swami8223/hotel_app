@@ -3,7 +3,7 @@
 <nav id="topnav">
 <ul class="clear">
 <li><a href="index.php" title="Homepage">Homepage</a></li>
-<li class="active"><a class="" href="menu.php" title="Pages">Online order</a>
+<li class="active"><a class="" href="menu.php" title="Online order">Online order</a>
 <!-- <ul>
 <li><a href="full-width-content.html" title="Full Width Content">Full Width Content</a></li>
 <li><a href="content-leftsidebar.html" title="Content + Left Sidebar">Content + Left Sidebar</a></li>
