@@ -8,8 +8,22 @@ include '../db_manager/hoteldetailsDbManager.php';
 <link type="text/css" rel="stylesheet" href="../../css/login.css" />
 
 <body>
-
-<header class="header"><h1>target</h1></header>
+<div class="wrapper row1">
+  <header id="header" class="full_width clear">
+    <hgroup>
+      <h1><?php echo $hotel_details['HotelName'];?>
+<a class="fltrt" for="username">Welcome <?php echo $username?></a>
+</h1>
+      <h2>We make foods,,,</h2>
+    </hgroup>
+    <div id="header-contact">
+      <ul class="list none">
+        <li><span class="icon-envelope"></span> <a href="#">info@domain.com</a></li>
+        <li><span class="icon-phone"></span><?php echo $hotel_details['Phonenumber'];?></li>
+      </ul>
+    </div>
+  </header>
+</div>
 <section class="container" id="sinup">
 
 <section class="login-container">

@@ -10,11 +10,11 @@ var Menu_page= {
 	    },
 	 
 	    menu_init: function( event ) {
-	    	$.ajax({
+	    	jQuery.ajax({
 	    		  url: "http://localhost:8888/MAMP/hotel_app/PHP/web_service/categories_webservice.php",
 	    		  context: document.body
 	    		}).done(function() {
-	    		 alert("done");
+	    		// alert("done");
 	    		});
 	    },
 	 

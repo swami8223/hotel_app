@@ -4,12 +4,29 @@
 // this post info into db
 include '../includes/css_jsinclude.php';
 include '../db_manager/userLoginDbManager.php';
+
 ?>
+
 <link type="text/css" rel="stylesheet" href="../../css/global.css" />
 <link type="text/css" rel="stylesheet" href="../../css/login.css" />
 
 <body>
-<header class="header"><h1>target</h1></header>
+<div class="wrapper row1">
+  <header id="header" class="full_width clear">
+    <hgroup>
+      <h1></h1>
+      <h2>We make foods,,,</h2>
+    </hgroup>
+    <div id="header-contact">
+      <ul class="list none">
+        <li><span class="icon-envelope"></li>
+        <li><span class="icon-phone"></li>
+      </ul>
+    </div>
+  </header>
+</div>
+
+
 <section class="container" id="login">
 
 <section class="login-container">

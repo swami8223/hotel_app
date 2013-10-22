@@ -41,6 +41,7 @@ include '../Classes/PHPExcel/IOFactory.php';
  		$this->hotel_name = mysql_real_escape_string($_POST["hotel-name"]);
  		$this->address = mysql_real_escape_string($_POST["address"]);
  		$this->phone_number = mysql_real_escape_string($_POST["phone-number"]);
+ 	
  		$this->city = mysql_real_escape_string($_POST["city"]);
  		$this->state =mysql_real_escape_string($_POST["state"]);
  		$this->country =mysql_real_escape_string($_POST["country"]);
@@ -99,7 +100,7 @@ include '../Classes/PHPExcel/IOFactory.php';
  				return false;
  			}
  			/*TRUNCATE TABEL HOTEL DETAIL ENDS HERE*/
- 	
+ 			
  			/*INSERT TO TABEL HOTEL DETAIL  HERE*/
  			$hotel_details_table = "INSERT INTO  hotel_details (HotelName, Address, Phonenumber,City,State,Country,Zipcode)
  			VALUES ('$this->hotel_name','$this->address','$this->phone_number','$this->city','$this->state','$this->country','$this->zipcode')";
