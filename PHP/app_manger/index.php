@@ -10,112 +10,158 @@
 		include 'menubar.php';
 		//include '../db_manager/hoteldetailsDbManager.php';
 		?>
-		
+<link href="../../css/responsiveslides.js-v1.53/responsiveslides.css" rel="stylesheet" type="text/css" media="all">		
 	
 </head>
 
 
 <body>
+<div class="wrapper row5">
+  <!-- ################################################################################################ -->
+  <div class="rslides_container clear">
+    <ul class="rslides clear" id="rslides">
+      <li><img src="../../images/slider/1.jpg" alt=""></li>
+      <li><img src="../../images/slider/2.jpg" alt=""></li>
+      <li><img src="../../images/slider/3.jpg" alt=""></li>
+    </ul>
+  </div>
+  <!-- ################################################################################################ -->
+  <div class="clear"></div>
+</div>
+
+
 <div class="wrapper row3">
   <div id="container">
     <!-- ################################################################################################ -->
     <div id="homepage" class="clear">
-      <div class="main_slider clear bg_dkgrey push60">
-        <div class="one_half nogutter first">&nbsp;</div>
-        <div class="one_half nogutter">
-          <div class="pad20">
-            <h1 class="emphasise nospace">Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum</h1>
-            <p>Donec a erat in enim cursus gravida id non urna. Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper. Vestibulum adipiscing erat sit amet justo luctus molestie. In hac habitasse platea dictumst. In lacinia erat id ante faucibus tristique. Integer egestas elementum risus vel rutrum. Mauris vel augue sit amet lectus hendrerit auctor non nec purus.</p>
-            <a href="#" class="button large gradient orange rnd5">Read More &raquo;</a></div>
-        </div>
-      </div>
-      <!-- #### -->
-      <div class="clear push60">
-        <div class="one_half nogutter first">
-          <div class="one_half nogutter first"><a href="#"><img src="../../images/300x220lt.gif" alt=""></a></div>
-          <div class="one_half nogutter bg_orange">
-            <div class="pad20">
-              <h2>Headline Text</h2>
-              <p class="push30">Donec a erat in enim cursus gravida id non urna. Integer imperdiet vestibulum leo ut tincidunt in sagittis.</p>
-              <a href="#" class="button small gradient orange rnd5">Read More &raquo;</a></div>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div class="one_half nogutter">
-          <div class="one_half nogutter first"><a href="#"><img src="../../images/300x220dk.gif" alt=""></a></div>
-          <div class="one_half nogutter bg_orange">
-            <div class="pad20">
-              <h2>Headline Text</h2>
-              <p class="push30">Donec a erat in enim cursus gravida id non urna. Integer imperdiet vestibulum leo ut tincidunt in sagittis.</p>
-              <a href="#" class="button small gradient orange rnd5">Read More &raquo;</a></div>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
-      <!-- #### -->
+      <section>
+        <ul class="nospace clear">
+          <li class="one_quarter first">
+            <article class="clear">
+              <div class="one_fifth first"><img src="../../images/50x50.gif" alt=""></div>
+              <div class="four_fifth">
+                <h2 class="font-large nospace">Headline Text</h2>
+                <p>Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper.</p>
+                <footer><a href="#">Read More &raquo;</a></footer>
+              </div>
+            </article>
+          </li>
+          <li class="one_quarter">
+            <article class="clear">
+              <div class="one_fifth first"><img src="../../images/50x50.gif" alt=""></div>
+              <div class="four_fifth">
+                <h2 class="font-large nospace">Headline Text</h2>
+                <p>Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper.</p>
+                <footer><a href="#">Read More &raquo;</a></footer>
+              </div>
+            </article>
+          </li>
+          <li class="one_quarter">
+            <article class="clear">
+              <div class="one_fifth first"><img src="../../images/50x50.gif" alt=""></div>
+              <div class="four_fifth">
+                <h2 class="font-large nospace">Headline Text</h2>
+                <p>Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper.</p>
+                <footer><a href="#">Read More &raquo;</a></footer>
+              </div>
+            </article>
+          </li>
+          <li class="one_quarter">
+            <article class="clear">
+              <div class="one_fifth first"><img src="../../images/50x50.gif" alt=""></div>
+              <div class="four_fifth">
+                <h2 class="font-large nospace">Headline Text</h2>
+                <p>Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper.</p>
+                <footer><a href="#">Read More &raquo;</a></footer>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul class="nospace clear">
+          <li class="one_quarter first">
+            <article class="boxholder rnd8">
+              <div class="push20"><img src="../../images/gallery.gif" alt=""></div>
+              <h2 class="font-medium nospace"><a href="#">Headline Text</a></h2>
+              <p class="nospace">Aliquatjusto quisque nam consequat doloreet vest.</p>
+            </article>
+          </li>
+          <li class="one_quarter">
+            <article class="boxholder rnd8">
+              <div class="push20"><img src="../../images/gallery.gif" alt=""></div>
+              <h2 class="font-medium nospace"><a href="#">Headline Text</a></h2>
+              <p class="nospace">Aliquatjusto quisque nam consequat doloreet vest.</p>
+            </article>
+          </li>
+          <li class="one_quarter">
+            <article class="boxholder rnd8">
+              <div class="push20"><img src="../../images/gallery.gif" alt=""></div>
+              <h2 class="font-medium nospace"><a href="#">Headline Text</a></h2>
+              <p class="nospace">Aliquatjusto quisque nam consequat doloreet vest.</p>
+            </article>
+          </li>
+          <li class="one_quarter">
+            <article class="boxholder rnd8">
+              <div class="push20"><img src="../../images/gallery.gif" alt=""></div>
+              <h2 class="font-medium nospace"><a href="#">Headline Text</a></h2>
+              <p class="nospace">Aliquatjusto quisque nam consequat doloreet vest.</p>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <div class="divider2"></div>
       <div class="clear">
-        <div class="one_quarter first">
+        <div class="one_half first">
+          <article class="push50 clear">
+            <div class="one_quarter first"><a href="#"><img src="../../images/120x120.gif" alt=""></a></div>
+            <div class="three_quarter">
+              <h2 class="nospace font-medium">Headline Text</h2>
+              <p>Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum integer.</p>
+              <p><a href="#">Read More &raquo;</a></p>
+            </div>
+          </article>
+          <article class="clear">
+            <div class="one_quarter first"><a href="#"><img src="../../images/120x120.gif" alt=""></a></div>
+            <div class="three_quarter">
+              <h2 class="nospace font-medium">Headline Text</h2>
+              <p>Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum integer.</p>
+              <p><a href="#">Read More &raquo;</a></p>
+            </div>
+          </article>
+        </div>
+        <div class="one_half">
           <h2>Headline Text</h2>
-          <p>Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum.</p>
-          <p>In hac habitasse platea dictumst. In lacinia erat id ante faucibus tristique. Integer egestas elementum risus vel rutrum. Mauris vel augue sit amet lectus hendrerit auctor non nec purus.</p>
-          <a href="#" class="button small gradient orange rnd5">View All Projects &raquo;</a> </div>
-        <div class="three_quarter">
-          <ul class="nospace clear">
-            <li class="one_third nogutter first">
-              <figure class="showtext"><img src="../../images/300x220lt.gif" alt="">
-                <figcaption class="caption">
-                  <div class="pad30">
-                    <p class="font-medium push20">Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum.</p>
-                    <a href="#">View This Project &raquo;</a></div>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="one_third nogutter">
-              <figure class="showtext"><img src="../../images/300x220dk.gif" alt="">
-                <figcaption class="caption">
-                  <div class="pad30">
-                    <p class="font-medium push20">Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum.</p>
-                    <a href="#">View This Project &raquo;</a></div>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="one_third nogutter">
-              <figure class="showtext"><img src="../../images/300x220lt.gif" alt="">
-                <figcaption class="caption">
-                  <div class="pad30">
-                    <p class="font-medium push20">Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum.</p>
-                    <a href="#">View This Project &raquo;</a></div>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="one_third nogutter first">
-              <figure class="showtext"><img src="../../images/300x220dk.gif" alt="">
-                <figcaption class="caption">
-                  <div class="pad30">
-                    <p class="font-medium push20">Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum.</p>
-                    <a href="#">View This Project &raquo;</a></div>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="one_third nogutter">
-              <figure class="showtext"><img src="../../images/300x220lt.gif" alt="">
-                <figcaption class="caption">
-                  <div class="pad30">
-                    <p class="font-medium push20">Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum.</p>
-                    <a href="#">View This Project &raquo;</a></div>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="one_third nogutter">
-              <figure class="showtext"><img src="../../images/300x220dk.gif" alt="">
-                <figcaption class="caption">
-                  <div class="pad30">
-                    <p class="font-medium push20">Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum.</p>
-                    <a href="#">View This Project &raquo;</a></div>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
+          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
+            <div class="accordion-content">
+              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
+              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
+            </div>
+          </div>
+          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
+            <div class="accordion-content">
+              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
+              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
+            </div>
+          </div>
+          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
+            <div class="accordion-content">
+              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
+              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
+            </div>
+          </div>
+          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
+            <div class="accordion-content">
+              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
+              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
+            </div>
+          </div>
+          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
+            <div class="accordion-content">
+              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
+              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -128,4 +174,6 @@
 include '../includes/css_jsinclude.php';
 include '../includes/footer.php';
 ?>
+<script>jQuery(document).ready(function($){ $('img').removeAttr('width height'); });</script>
+<script src="../../css/responsiveslides.js-v1.53/responsiveslides.min.js"></script>
 </body>
