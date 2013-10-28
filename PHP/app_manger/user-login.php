@@ -78,7 +78,7 @@ if (isset($_POST['submit'])) {
 			if( $userLoginDbManager -> verifyuser()){				
 				$host  = $_SERVER['HTTP_HOST'];
 				$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-				$extra = 'menu.php';
+				$extra = 'index.php';
 				header("Location: $extra");
 				exit;
 			}

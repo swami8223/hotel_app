@@ -4,7 +4,7 @@
 
 <?php 
 		// menu html page
-		//include '../includes/verifylogin.php';
+		include '../includes/verifylogin.php';
 		
 		include '../includes/header.php';
 		//include 'menubar.php';
