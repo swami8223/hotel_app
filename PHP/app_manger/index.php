@@ -4,176 +4,86 @@
 
 <?php 
 		// menu html page
-		include '../includes/verifylogin.php';
+		//include '../includes/verifylogin.php';
 		
 		include '../includes/header.php';
-		include 'menubar.php';
+		//include 'menubar.php';
 		//include '../db_manager/hoteldetailsDbManager.php';
 		?>
+<link rel="stylesheet" type="text/css" href="../../css/custom.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../css/demo-only.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../css/elements.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../css/filereader.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../css/global.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../css/layout.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../css/login.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../css/main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../css/mediaqueries.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../../css/pages.css" media="screen" />   
 <link href="../../css/responsiveslides.js-v1.53/responsiveslides.css" rel="stylesheet" type="text/css" media="all">		
 	
 </head>
 
 
 <body>
-<div class="wrapper row5">
-  <!-- ################################################################################################ -->
-  <div class="rslides_container clear">
-    <ul class="rslides clear" id="rslides">
-      <li><img src="../../images/slider/1.jpg" alt=""></li>
-      <li><img src="../../images/slider/2.jpg" alt=""></li>
-      <li><img src="../../images/slider/3.jpg" alt=""></li>
-    </ul>
-  </div>
-  <!-- ################################################################################################ -->
-  <div class="clear"></div>
-</div>
+	<!--Menu Starts!-->
+	<div class="wrapper row2">
+<nav id="topnav">
+<ul class="menu clear">
+<li  ><a id="home-page" href="#" title="Homepage">Homepage</a></li>
+<li class="active"><a id="menu"  class="" href="#/menu" title="Online order">Online order</a>
+<!-- <ul>
+<li><a href="full-width-content.html" title="Full Width Content">Full Width Content</a></li>
 
+</ul>  -->
+</li>
+<li><a id="about-us" class="" href="#/aboutUs" title="About Us">About Us</a>
+<!-- 
+<ul>
+<li><a href="../elements/buttons.html" title="Buttons">Buttons</a></li>
 
-<div class="wrapper row3">
-  <div id="container">
-    <!-- ################################################################################################ -->
-    <div id="homepage" class="clear">
-      <section>
-        <ul class="nospace clear">
-          <li class="one_quarter first">
-            <article class="clear">
-              <div class="one_fifth first"><img src="../../images/50x50.gif" alt=""></div>
-              <div class="four_fifth">
-                <h2 class="font-large nospace">Headline Text</h2>
-                <p>Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper.</p>
-                <footer><a href="#">Read More &raquo;</a></footer>
-              </div>
-            </article>
-          </li>
-          <li class="one_quarter">
-            <article class="clear">
-              <div class="one_fifth first"><img src="../../images/50x50.gif" alt=""></div>
-              <div class="four_fifth">
-                <h2 class="font-large nospace">Headline Text</h2>
-                <p>Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper.</p>
-                <footer><a href="#">Read More &raquo;</a></footer>
-              </div>
-            </article>
-          </li>
-          <li class="one_quarter">
-            <article class="clear">
-              <div class="one_fifth first"><img src="../../images/50x50.gif" alt=""></div>
-              <div class="four_fifth">
-                <h2 class="font-large nospace">Headline Text</h2>
-                <p>Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper.</p>
-                <footer><a href="#">Read More &raquo;</a></footer>
-              </div>
-            </article>
-          </li>
-          <li class="one_quarter">
-            <article class="clear">
-              <div class="one_fifth first"><img src="../../images/50x50.gif" alt=""></div>
-              <div class="four_fifth">
-                <h2 class="font-large nospace">Headline Text</h2>
-                <p>Integer imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper.</p>
-                <footer><a href="#">Read More &raquo;</a></footer>
-              </div>
-            </article>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="nospace clear">
-          <li class="one_quarter first">
-            <article class="boxholder rnd8">
-              <div class="push20"><img src="../../images/gallery.gif" alt=""></div>
-              <h2 class="font-medium nospace"><a href="#">Headline Text</a></h2>
-              <p class="nospace">Aliquatjusto quisque nam consequat doloreet vest.</p>
-            </article>
-          </li>
-          <li class="one_quarter">
-            <article class="boxholder rnd8">
-              <div class="push20"><img src="../../images/gallery.gif" alt=""></div>
-              <h2 class="font-medium nospace"><a href="#">Headline Text</a></h2>
-              <p class="nospace">Aliquatjusto quisque nam consequat doloreet vest.</p>
-            </article>
-          </li>
-          <li class="one_quarter">
-            <article class="boxholder rnd8">
-              <div class="push20"><img src="../../images/gallery.gif" alt=""></div>
-              <h2 class="font-medium nospace"><a href="#">Headline Text</a></h2>
-              <p class="nospace">Aliquatjusto quisque nam consequat doloreet vest.</p>
-            </article>
-          </li>
-          <li class="one_quarter">
-            <article class="boxholder rnd8">
-              <div class="push20"><img src="../../images/gallery.gif" alt=""></div>
-              <h2 class="font-medium nospace"><a href="#">Headline Text</a></h2>
-              <p class="nospace">Aliquatjusto quisque nam consequat doloreet vest.</p>
-            </article>
-          </li>
-        </ul>
-      </section>
-      <div class="divider2"></div>
-      <div class="clear">
-        <div class="one_half first">
-          <article class="push50 clear">
-            <div class="one_quarter first"><a href="#"><img src="../../images/120x120.gif" alt=""></a></div>
-            <div class="three_quarter">
-              <h2 class="nospace font-medium">Headline Text</h2>
-              <p>Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum integer.</p>
-              <p><a href="#">Read More &raquo;</a></p>
-            </div>
-          </article>
-          <article class="clear">
-            <div class="one_quarter first"><a href="#"><img src="../../images/120x120.gif" alt=""></a></div>
-            <div class="three_quarter">
-              <h2 class="nospace font-medium">Headline Text</h2>
-              <p>Donec a erat in enim cursus gravida id non urna. Vivamus feugiat mauris sed sem tristique non eleifend lorem elementum integer.</p>
-              <p><a href="#">Read More &raquo;</a></p>
-            </div>
-          </article>
-        </div>
-        <div class="one_half">
-          <h2>Headline Text</h2>
-          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
-            <div class="accordion-content">
-              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
-              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
-            </div>
-          </div>
-          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
-            <div class="accordion-content">
-              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
-              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
-            </div>
-          </div>
-          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
-            <div class="accordion-content">
-              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
-              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
-            </div>
-          </div>
-          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
-            <div class="accordion-content">
-              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
-              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
-            </div>
-          </div>
-          <div class="accordion-wrapper"><a href="javascript:void(0)" class="accordion-title orange"><span>Aliquatjusto quisque nam consequat doloreet</span></a>
-            <div class="accordion-content">
-              <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
-              <p>Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ################################################################################################ -->
-    <div class="clear"></div>
-  </div>
+</ul>
+-->
+</li>
+<!-- 
+<li><a class="drop" href="#" title="Portfolio Layouts">Portfolio Layouts</a>
+
+<ul>
+<li><a href="../portfolio-layouts/portfolio-overview-full-width-content.html" title="Full Width Portfolio">Full Width Portfolio</a></li>
+
+</ul> 
+</li>-->
+<li><a class="drop" href="#/ourServices" title="Our Services">Our Services</a>
+  
+<ul>
+<li><a href="#/ourServices1" href="../gallery-layouts/gallery-full-width-content.html" title="Birth day parties">Birth day parties</a></li>
+<li><a href="#/ourServices2" href="../gallery-layouts/gallery-2columns.html" title="Hall Booking">Hall Booking</a></li>
+<li><a href="#/ourServices3" href="../gallery-layouts/gallery-2columns-leftsidebar.html" title="Room Booking">Room Booking</a></li>
+</ul> 
+</li>
+<li><a href="#/feedBack" title="FeedBack">FeedBack</a></li>
+<li   class="last-child"><a href="#/contactUs" title="Contact Us">Contact Us</a></li>
+</ul>
+</nav>
 </div>
+	<!--Menu ends !-->
+	<div id= "content" >
+
+	</div>
 
 <?php 
-include '../includes/css_jsinclude.php';
+//include '../includes/css_jsinclude.php';
 include '../includes/footer.php';
 ?>
+
+<script data-main="../../javascript/main" src="../../javascript/libs/require/require.js"></script>
+
+<script>window.jQuery || document.write('<script src="http://localhost:8888/MAMP/hotel_app/javascript/libs/jQuery/jquery-min.js"><\/script>\
+<script src="http://localhost:8888/MAMP/hotel_app/javascript/libs/jQuery/jquery-ui.min.js"><\/script>')</script>
 <script>jQuery(document).ready(function($){ $('img').removeAttr('width height'); });</script>
-<script src="../../css/responsiveslides.js-v1.53/responsiveslides.min.js"></script>
+
+
+
+
+
 </body>

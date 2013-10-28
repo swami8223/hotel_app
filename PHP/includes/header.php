@@ -21,7 +21,7 @@ $hotel_details= $hotel_menu_details ->hotel_details();
     <div id="header-contact">
       <ul class="list none">
         <li><span class="icon-envelope"></span> <a href="#">info@domain.com</a></li>
-        <li><span class="icon-phone"></span><?php echo $hotel_details['Zipcode'];?></li>
+        <li><span class="icon-phone"></span><?php echo $hotel_details['Phonenumber'];?></li>
       </ul>
     </div>
   </header>

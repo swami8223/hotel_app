@@ -1,7 +1,7 @@
 $hotel_details_table="CREATE TABLE  hotel_details(
  					HotelName CHAR(100) NOT NULL,
  					Address CHAR(100) NOT NULL,
- 					Phonenumber INT NOT NULL,
+ 					Phonenumber CHAR(100) NOT NULL,
  					City CHAR(100) NOT NULL,
  					State Char(100) NOT NULL,
  					Country Char(100) NOT NULL,

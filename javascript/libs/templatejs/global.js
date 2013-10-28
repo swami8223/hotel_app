@@ -6,7 +6,7 @@ var Menu_page= {
 	        //$( "#magic" ).click( PI.candyMtn );
 	        //$( "#happiness" ).load( PI.url + " #unicorns", PI.unicornCb );
 	    	Menu_page.menu_init();
-	    	
+	    	jQuery(document).ready(function($){ $('img').removeAttr('width height'); });
 	    },
 	 
 	    menu_init: function( event ) {
