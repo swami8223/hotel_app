@@ -2,11 +2,11 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'views/HomeView',
-  'views/MenuView',
-  'views/AboutUsView',
-  'views/FeedBackView',
-  'views/ContactUsView',
+  'views/Home/HomeView',
+  'views/Menu/MenuView',
+  'views/AboutUS/AboutUsView',
+  'views/FeedBack/FeedBackView',
+  'views/ContactUS/ContactUsView',
 ],function($,_,Backbone,HomeView,MenuView,AboutUs,FeedBack,ContactUs){
 
 
