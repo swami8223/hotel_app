@@ -23,7 +23,7 @@ var initialize =  function(){
 
   app_router.on("route:Menu_page",function(){
     var menuview = new MenuView();
-    menuview.render();
+    //menuview.render();
 
    });
    app_router.on("route:About_us",function(){
