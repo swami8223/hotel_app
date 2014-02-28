@@ -1,5 +1,6 @@
 <?php
 ?>
+<footer>
 <div class="wrapper row2">
   <div id="footer" class="clear">
     <div class="one_quarter first">
@@ -71,3 +72,6 @@
     <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
   </div>
 </div>
+</footer>
+
+

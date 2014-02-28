@@ -117,7 +117,8 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 @media screen and (min-width:1200px) {
 	body.boxed .wrapper{max-width:1140px;}
-	#header, #topnav, #intro, #container, #footer, #copyright, .stretched{max-width:1200px; margin:0 auto;}
+	#header, #topnav, #intro, #container, #footer, #copyright, .stretched{max-width:95%; margin:0 auto;}
+	
 }
 
 /* Hide The Jquery Generated Navigation Form from 801px upwards */

@@ -1,11 +1,66 @@
 <div class="wrapper row3">
-  <div id="container">
+  <div id="container" class=>
+    <h2>Menu</h2>
     <!-- ################################################################################################ -->
-    <div id="gallery">
+<div class=" flt-lft main-menu-container">
+  <ul class="main-menu">
+            <% _.each(menu, function(menu_data , index){ %>
+            
+
+<li class="main-menu" ><a id= "<%= menu_data.category_name %>" ><%= menu_data.category_name %>
+
+
+            <% }) ;%></a></li>
+            </ul>
+</div>
+    <div class= "flt-lft menu-gallery" id="gallery">
       <section>
         <figure>
-          <h2>Menu</h2>
-          <ul class="clear">
+        
+            <% _.each(menu, function(menu_data , index){ %>
+
+                <% if(menu_data.item_info != undefined){ %>
+                <% if(index == 0){ %>
+   <div id= "<%= menu_data.category_name %>-container" class="menu-container current">
+                  <% }
+else{ %>
+
+   <div id= "<%= menu_data.category_name %>-container" class="menu-container hide">
+<% } %>
+                  
+
+                
+                    <h4><a><%= menu_data.category_name %></a></h4>
+                    <ul class="clear menu_item"> 
+                    <% _.each(menu_data.item_info,function(item_info){ %>
+                    <% if(index  == 1 ) { console.log("one"+item_info.item_id) }%>
+
+                    <li class="one_fifth item-div" id="item-id<%=item_info.item_id%>">
+                      <!-- <a class="add-to-cart"></a> !-->
+                      <img alt="<%= item_info.item_name %> " class="item-img" src="../../images/menu_image/<%=item_info.item_image %>.png" alt="">
+              <p title= <%= item_info.item_name %>  class="item-name truncate120" href="#"><%= item_info.item_name %></p>
+<p  coast-hidden = "<%= item_info.price %> " title="Item Price <%= item_info.price %> rs"  class="item-price" href="#"><a>Item Price</a> <a class="item-amount"><%= item_info.price %> Rs </a> </p>
+              <input type="button" value="Order Item" class="button small orange margin10 cart-btn">
+              <input class="qty-box" type="text" maxlength=2 placeholder="QTY" > </input>
+              <p title = <%= item_info.item_details %>   class="item-details truncate120" href="#"> <a>Item description :</a><%= item_info.item_details %> </p>
+
+
+                  </li>
+                     <% }); //each ends here
+                 }%> 
+                    </ul>
+                  </div>
+            <% })  %>
+
+
+
+
+
+<!--
+
+           
+<ul class="clear">
+            
             <li class="one_fifth first"><a href="#"><img src="../../images/gallery.gif" alt=""></a></li>
             <li class="one_fifth"><a href="#"><img src="../../images/gallery.gif" alt=""></a></li>
             <li class="one_fifth"><a href="#"><img src="../../images/gallery.gif" alt=""></a></li>
@@ -21,7 +76,7 @@
             <li class="one_fifth"><a href="#"><img src="../../images/gallery.gif" alt=""></a></li>
             <li class="one_fifth"><a href="#"><img src="../../images/gallery.gif" alt=""></a></li>
             <li class="one_fifth"><a href="#"><img src="../../images/gallery.gif" alt=""></a></li>
-          </ul>
+</ul> -->
           <figcaption>
             <p>This is a W3C standards compliant free responsive HTML5 website template from <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. For full terms of use of this template please read our <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>.</p>
             <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more responsive HTML5 templates visit <a href="http://www.os-templates.com/">Free Website Templates</a>.</p>
@@ -46,6 +101,31 @@
       </nav>
     </div>
     <!-- ################################################################################################ -->
+
+    <div class= "flt-lft cart-wheel  hide" >
+<h5><a>Cart Wheel</a></h5>
+<div class="cart-wheel-header">
+  <div class="flt-lft item-name two_fifth">Name</div>
+  <div class="flt-lft item-price two_fifth">Price</div>
+<div class="flt-lft item-number two_fifth"> Qty</div>
+
+</div>
+<ul class="cart-list clear-float">
+
+</ul>
+<div class="total-block">
+  <div class="inner-total-block">
+<div class="flt-lft total-text two_fifth">Total</div>
+<div id= "total-item" class="flt-lft item-price two_fifth">0</div>
+<div id= "total-amount" class="flt-lft item-price two_fifth">0</div>
+<input type="button"  href = "#/aboutUs" value="Add To Cart" class="button small orange margin10 add_to_main_cart">
+</input>
+</div>
+</div>
+ 
+
+    </div>
     <div class="clear"></div>
+
   </div>
 </div>

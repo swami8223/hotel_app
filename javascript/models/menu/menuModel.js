@@ -5,12 +5,18 @@ define([
   
   var MenuModel = Backbone.Model.extend({
  //this.render();
+
+  	/*defaults : {
+  		medalHex : '#A67D3D',
+  		picWidth : '100px',
+  		githubPath : 'concat github and login'
+  	}*/
+
   	defaults : {
   		medalHex : '#A67D3D',
   		picWidth : '100px',
   		githubPath : 'concat github and login'
   	}
-
 
 
 

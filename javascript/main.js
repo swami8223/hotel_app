@@ -8,8 +8,10 @@ require.config({
     jquery: 'jquery-min',
     jquery_mobilemenu:'jquery-mobilemenu-min',
     responsive_slide:'responsiveslides',
+    global: 'global',
+    jquery_ui :'jquery-ui.min',
+    jquer_min :'jquery-min',
     custom:'custom',
-    
     underscore: 'libs/underscore/underscore-min',
     backbone: 'libs/backbone/backbone-min',
     templates: '../templates'

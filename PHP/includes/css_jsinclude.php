@@ -12,12 +12,6 @@
 
 
 
-<script type="text/javascript" src="../../javascript/jquery-latest.min.js"></script>
-<script type="text/javascript" src="../../javascript/jquery-mobilemenu.min.js"></script>
-<script type="text/javascript" src="../../javascript/jquery-ui.min.js"></script>
-<script type="text/javascript" src="../../javascript/custom.js"></script>
-<script type="text/javascript" src="../../javascript/global.js"></script>
-<script type="text/javascript" src="../../javascript/handelbar.js"></script>
 </script>
 <?php
 ?>

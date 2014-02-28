@@ -10,21 +10,27 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 .one_third, .two_third, 
 .one_quarter, .two_quarter, .three_quarter, 
 .one_fifth, .two_fifth, .three_fifth, .four_fifth, 
-.one_sixth, .two_sixth, .three_sixth, .four_sixth, .five_sixth{display:inline; float:left; margin:0 0 0 5%; list-style:none;}
+.one_sixth, .two_sixth, .three_sixth, .four_sixth, .five_sixth{display:inline; float:left;  list-style:none;}
 
 .one_half:first-child, 
 .one_third:first-child, .two_third:first-child, 
 .one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child, 
-.one_fifth:first-child, .two_fifth:first-child, .three_fifth:first-child, .four_fifth:first-child, 
+ .two_fifth:first-child, .three_fifth:first-child, .four_fifth:first-child, 
 .one_sixth:first-child, .two_sixth:first-child, .three_sixth:first-child, .four_sixth:first-child, .five_sixth:first-child{margin-left:0;}
 
 .first{clear:left;}
 .first, .nogutter{margin-left:0;}
-
+.flt-lft{float: left}
 .full_width{display:block; width:100%; clear:both;}
 
 body.boxed .wrapper{max-width:90%; padding:0 1.6%; margin:0 auto;}
-
+.truncate120 {
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hide{display: none;}
 /*----------------------------------------------Half Grid-------------------------------------*/
 
 /*
@@ -90,10 +96,12 @@ body.boxed .wrapper{max-width:90%; padding:0 1.6%; margin:0 auto;}
 .four_fifth{width:948px} => 948 ÷ 1200 = 0.79 * 100 = 79
 */
 
-.one_fifth{width:16%;}
-.two_fifth{width:37%;}
+.one_fifth{width:21%;}
+.two_fifth{width:32%;}
 .three_fifth{width:58%;}
 .four_fifth{width:79%;}
+
+
 
 /*
 .one_fifth.nogutter{width:240px;} => 240 ÷ 1200 = 0.2 * 100 = 20

@@ -2,12 +2,16 @@ define([
   'jquery',
   'underscore',
   'backbone',
+
   'views/Home/HomeView',
+  'views/Plp/PlpView',
   'views/Menu/MenuView',
   'views/AboutUS/AboutUsView',
   'views/FeedBack/FeedBackView',
   'views/ContactUS/ContactUsView',
-],function($,_,Backbone,HomeView,MenuView,AboutUs,FeedBack,ContactUs){
+  'views/Delivery/DeliveryView',
+  'global',
+],function($,_,Backbone,HomeView,PlpView,MenuView,AboutUs,FeedBack,ContactUs,Delivery){
 
 
 var initialize =  function(){
@@ -18,11 +22,16 @@ var initialize =  function(){
     app_router.on("route:Home_page",function(){
     var homeview = new HomeView();
     homeview.render();
+  
 
    });
 
   app_router.on("route:Menu_page",function(){
+
+    var plpview = new PlpView();
+
     var menuview = new MenuView();
+
     //menuview.render();
 
    });
@@ -43,6 +52,13 @@ var initialize =  function(){
 
    });
 
+   app_router.on("route:Delivery_page",function(){
+    var deliveryview = new Delivery();
+    deliveryview.render();
+  
+
+   });
+
     Backbone.history.start();
 
 };
@@ -54,6 +70,7 @@ var AppRouter = Backbone.Router.extend({
     'aboutUs':"About_us",
     'feedBack':"Feed_back",
     'contactUs':'Contact_us',
+    'delivery' : 'Delivery_page',
       // Default
       '*actions': 'Home_page',
       

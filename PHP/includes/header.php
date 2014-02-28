@@ -10,8 +10,10 @@ $hotel_menu_details = new Hotel_menu_details(); // hotel name,address,phonenumbe
 $hotel_details= $hotel_menu_details ->hotel_details();
 ?>
 <body>
+
+    <header id="header" class="full_width clear">
 <div class="wrapper row1">
-  <header id="header" class="full_width clear">
+
     <hgroup>
       <h1><?php echo $hotel_details['HotelName'];?>
 <!-- <a class="fltrt" for="username">Welcome <?php echo $username?></a> -->
@@ -24,11 +26,9 @@ $hotel_details= $hotel_menu_details ->hotel_details();
         <li><span class="icon-phone"></span><?php echo $hotel_details['Phonenumber'];?></li>
       </ul>
     </div>
-  </header>
+
 </div>
+  </header>
 
-<header class="header">
 
-</header>
-</body>
 </html>

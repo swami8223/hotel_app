@@ -109,3 +109,29 @@ background:linear-gradient(bottom, #B10612 12%, #C90812 57%);
 .mrgleft10{
 margin-left:10px !important;
 }
+.margin10{
+margin: 10px;
+}
+.width50-prcnt{
+	width: 50%;
+}
+.clear-float{
+	clear: both;
+}
+.auto-width{
+	width: auto;
+}
+#container{overflow: hidden;}
+.one_half_second{
+	margin-left: 30px;
+}
+.delete{
+	background-image: url('images/delete.png');
+	width: 24px;
+	height: 24px;
+}
+.top0{
+position: absolute;
+top: 0px;
+left: 0px;
+}

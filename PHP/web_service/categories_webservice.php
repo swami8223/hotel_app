@@ -75,7 +75,7 @@ class webservices {
 						while($item_details_row = mysqli_fetch_array($item_details_result)){
 							$item_array["item_id"] = $item_row['item_id'];
 							$item_array['item_name'] = $item_details_row['item_name'];
-							$item_array['item_image'] = $item_row['item_image'];
+							$item_array['item_image'] = $item_details_row['item_image'];
 							$item_array['iitem_video'] = $item_details_row['item_video'];
 							$item_array['stock_status'] = $item_details_row['stock_status'];
 							$item_array['stock_count'] = $item_details_row['stock_count'];

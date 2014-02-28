@@ -11,17 +11,23 @@ define([
 
 
    url : function() {
-     
-        return 'http://localhost:8888/MAMP/epiphany-master/examples/api/version.json';
+
+    //alert("inisde url");
+        return 'http://localhost:8888/hotel_app/PHP/web_service/categories_webservice.php';
       },
     
+ 
+    
       parse : function(data) {
-       
-          var uniqueArray = this.removeDuplicates(data.data);
+        console.log(JSON.stringify(data));
+          var uniqueArray = this.removeDuplicates(data);
+
           return uniqueArray;
       },
       
       removeDuplicates: function(myArray) {
+
+       console.log("my array"+ myArray);
 
           //credit: http://newcodeandroll.blogspot.ca/2012/01/how-to-find-duplicates-in-array-in.html  
           // I was hoping underscore's _uniq would work here but it only seems to work for single values not objects               
